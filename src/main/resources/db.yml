@@ -1,0 +1,13 @@
+---
+datasource:
+  - name: "App DB Datasource"
+    url: "jdbc:h2:~/appdb"
+    username: "sa"
+    password: ""
+    driver: "org.h2.Driver"
+  - name: "Test DB Datasource"
+    url: "jdbc:h2:~/testDB"
+    username: "sa"
+    password: ""
+    driver: "org.h2.Driver"
+  
